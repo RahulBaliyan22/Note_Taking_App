@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+h1 {
+  margin: 20px 0px 0px 45%;
+  font-family: monospace;
+}
+#note {
+  padding: 10px;
+}
+#enterEl {
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: rgb(222, 201, 201);
+  border-radius: 20px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#btn {
+  padding: 10px;
+  border: 0px;
+  border-radius: 2px;
+}
+#btn:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+#listEl {
+  height: 100%;
+  padding: 50px 100px;
+}
+#list {
+  font-size: x-large;
+  line-height: 30px;
+}
